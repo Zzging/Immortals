@@ -1,0 +1,23 @@
+@font-face {
+  font-family: Imported;
+  src: url(./font/RSU_Regular.ttf);
+}
+
+@font-face {
+  font-family: Athletic;
+  src: url(./font/Athletic\ Outfit.ttf);
+}
+body {
+  font-family: Imported;
+  background-color: #f1f1f1 !important;
+}
+
+main {
+  height: 80vh;
+}
+
+@media screen and (max-width: 534px) {
+  main {
+    height: 62vh;
+  }
+}
